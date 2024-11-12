@@ -14,6 +14,5 @@ public class CountDigits {
         int k=12345;
         int r = (int) (Math.log10(k))+1;
         System.out.println("through optimal approach "+ r);
-
     }
 }
