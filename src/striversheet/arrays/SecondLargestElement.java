@@ -15,7 +15,7 @@ public class SecondLargestElement {
                 smax=arr[i];
             }
         }
-        System.out.println(max);
-        System.out.println(smax);
+        System.out.println("Largest number: "+ max);
+        System.out.println("Second Largest number: "+smax);
     }
 }
