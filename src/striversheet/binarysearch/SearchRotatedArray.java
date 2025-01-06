@@ -9,13 +9,13 @@ public class SearchRotatedArray {
                 return mid;
             }
             if(arr[mid]>=arr[low]){
-                if(arr[low]<target && arr[mid]>target){
+                if(arr[low]<=target && arr[mid]>target){
                     high=mid-1;
                 }else{
                     low=mid+1;
                 }
             }else{
-                if(arr[high]>target && arr[mid]<target){
+                if(arr[high]>=target && arr[mid]<target){
                     low=mid+1;
                 }else{
                     high=mid-1;
