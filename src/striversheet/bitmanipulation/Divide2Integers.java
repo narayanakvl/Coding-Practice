@@ -15,7 +15,7 @@ public class Divide2Integers {
            while(temp<=(divisor<<cnt+1)){
                cnt++;
            }
-           temp=temp-(divisor * )
+           temp=temp-(divisor * (1<<cnt));
            ans=ans+(1<<cnt);
         }
         return negative?-ans:ans;
