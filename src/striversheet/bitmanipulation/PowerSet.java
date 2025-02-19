@@ -6,7 +6,7 @@ import java.util.List;
 public class PowerSet {
     static List<List<Integer>> powerSet(int[] arr) {
         List<List<Integer>> res = new ArrayList<List<Integer>>();
-        for (int i = 0; i <= Math.pow(2,arr.length)-1; i++) {
+        for (int i = 0; i <= (1<<arr.length)-1; i++) {
             List<Integer> lt=new ArrayList<>();
             for (int j = 0; j < arr.length; j++) {
                 if((i & (1<<j))!=0){
