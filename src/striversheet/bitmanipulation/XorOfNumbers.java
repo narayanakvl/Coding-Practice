@@ -15,7 +15,11 @@ public class XorOfNumbers {
             return n;
         }
     }
+    static int xorFromLTOR(int l,int r){
+        return xorTillN(l-1)^xorTillN(r);
+    }
     public static void main(String[] args) {
-        System.out.println(xorTillN(9));
+        System.out.println(xorTillN(10));
+        System.out.println(xorFromLTOR(1,10));
     }
 }
