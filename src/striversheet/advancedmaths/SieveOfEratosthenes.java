@@ -20,7 +20,7 @@ public class SieveOfEratosthenes {
         }
     }
     public static void main(String[] args) {
-        int n=30;
+        int n=2;
         printPrime(n);
     }
 }
