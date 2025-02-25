@@ -1,5 +1,5 @@
 package striversheet.advancedmaths;
-//to print prime numbers till n in optimized way
+//to print prime numbers till n using Sieve of Eratosthenes Algorithm
 public class SieveOfEratosthenes {
     static void printPrime(int n) {
         int[] arr = new int[n+1];
