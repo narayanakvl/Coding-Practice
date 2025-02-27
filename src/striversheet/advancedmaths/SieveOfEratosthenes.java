@@ -8,7 +8,7 @@ public class SieveOfEratosthenes {
         }
         for (int i=2; i*i<= n; i++) {
             if(arr[i]==1){
-                for (int j=i * i; j<= n; j+=i) {
+                for (int j=i*i; j<= n; j+=i) {
                     arr[j] = 0;
                 }
             }
